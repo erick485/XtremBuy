@@ -47,7 +47,7 @@
                     <button type="submit" class="btn btn-success">Iniciar Sesion</button>
                 </form>
                 <ul class="nav navbar-nav navbar-right">
-                    <a href="#" class="btn btn-danger" style="margin-top: 8px;">Registrarse</a>
+                    <a href="/registrarse" class="btn btn-danger" style="margin-top: 8px;">Registrarse</a>
                 </ul>
             </div><!--/.navbar-collapse -->
         </div>

@@ -7,7 +7,7 @@ class XtrembuyController extends BaseController
   public function getIndex(){
       //return $this->layout->content=View::make("XtremBuy.index");
 
-      return Redirect::to('home');
+      return Redirect::to('/home');
   }
   public function getHome(){
       return $this->layout->content=View::make("XtremBuy.index");
@@ -17,5 +17,8 @@ class XtrembuyController extends BaseController
   }
   public function postNoticias(){
       return "post de noticias";
+  }
+  public function getRegistrarse(){
+      return $this->layout->content=View::make("XtremBuy.registrarse");
   }
 }
