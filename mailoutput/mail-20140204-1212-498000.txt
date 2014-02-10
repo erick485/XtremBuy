@@ -1,0 +1,7 @@
+To: xtr3msoft@gmail.com
+Subject: El t√ tulo
+From: webmaster@example.com
+Reply-To: webmaster@example.com
+X-Mailer: PHP/5.4.19
+
+Hola

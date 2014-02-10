@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/docs.css">
 <link rel="stylesheet" type="text/css" href="css/pygments-manni.css">
+<link rel="stylesheet" type="text/css" href="css/stylos/Xtrembuy.css">
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 </head>
@@ -23,7 +24,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="/home">Home</a></li>
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tipos<b class="caret"></b></a>
@@ -37,12 +38,12 @@
                     <li><a href="#about">Testimonios</a></li>
                     <li><a href="#contact">¿Como funciona?</a></li>
                 </ul>
-                <form method="post" action="/noticias" class="navbar-form navbar-left" role="form">
+                <form method="post" action="/ingresar" class="navbar-form navbar-left" role="form">
                     <div class="form-group">
-                        <input type="text" placeholder="Email" class="form-control">
+                        <input type="text" name="email" placeholder="Email" class="form-control">
                     </div>
                     <div class="form-group">
-                        <input type="password" placeholder="Password" class="form-control">
+                        <input type="password" name="password" placeholder="Password" class="form-control">
                     </div>
                     <button type="submit" class="btn btn-success">Iniciar Sesion</button>
                 </form>
